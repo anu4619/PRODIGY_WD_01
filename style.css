@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #7776B3;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.space{
+    height: 90px;
+}
+.container, .horizontal-image-container, .store-info-container {
+    width: 90%;
+    max-width: 1200px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+    padding: 20px;
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.text-container {
+    flex: 1;
+    padding: 20px;
+}
+.text-container h1 {
+    font-size: 2em;
+    margin: 0;
+}
+.text-container p {
+    font-size: 1em;
+    margin: 20px 0;
+}
+.quiz-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #00214d;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.image-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    flex: 1;
+    padding: 20px;
+}
+.image-container img {
+    width: 150px;
+    height: 150px;
+    border-radius: 5px;}
+
+image.image-container1{
+   height: 470px;
+   padding: 20px;
+   width: 470px;
+}
+.image-container1 img {
+    height:470px;
+    width: 470px;
+}
+.image-container img {
+    width: 100%;
+    border-radius: 5px;
+}
+.horizontal-image-container {
+    display: flex;
+    justify-content: space-between;
+}
+.horizontal-image-container img {
+    width: 23%;
+    border-radius: 8px;
+    width: 280px;
+    height: 320px;
+}
+.store-info-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+}
+.store-info-container h2 {
+    font-size: 1.5em;
+    margin: 0;
+}
+.store-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #00214d;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 120px;
+    background: #414871;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.logo {
+    font-size: 25px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+nav a {
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: .3s;
+}
+nav a:hover {
+    color: #E2BBE9;
+}
+
