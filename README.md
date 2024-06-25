@@ -1,4 +1,4 @@
-# PRODIGY_WD_01 - Interactive Navigation Menu
+# PRODIGY_WD_01 
 
 ## Task 01: Responsive Landing Page
 
